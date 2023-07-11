@@ -172,6 +172,8 @@ const addRow = function (link, nome, quantita, prezzo) {
   tabCells.forEach((element, index) => element.classList.add("table-cell", "table-cell" + index));
 };
 
+addRow("https://cdn.pixabay.com/photo/2023/06/22/02/25/motocross-8080377_960_720.jpg", "moto", 1, 12000);
+
 /* ESERCIZIO 14
          Crea una funzione che nasconda le immagini della tabella quando eseguita
        */
