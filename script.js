@@ -176,7 +176,10 @@ const addRow = function (link, nome, quantita, prezzo) {
          Crea una funzione che nasconda le immagini della tabella quando eseguita
        */
 
-const hideAllImages = function () {};
+const hideAllImages = function () {
+  const tagImg = document.querySelector(".table-cell img");
+  tagUl.classList.add("hidden");
+};
 
 /* EXTRA ESERCIZIO 15
          Crea una funzione che cambi il colore del h2 con id "changeMyColor" con un colore random ad ogni click ricevuto
