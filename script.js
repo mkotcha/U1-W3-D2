@@ -180,7 +180,7 @@ addRow("https://cdn.pixabay.com/photo/2023/06/22/02/25/motocross-8080377_960_720
 
 const hideAllImages = function () {
   const tagImg = document.querySelector(".table-cell img");
-  tagUl.classList.add("hidden");
+  tagImg.classList.add("hidden");
 };
 
 /* EXTRA ESERCIZIO 15
