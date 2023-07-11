@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+body div,
+footer {
+  padding: 1rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+/* a:not(footer a) {
+  color: green;
+} */
+
+.hidden {
+  display: none;
+}
+
+.greenBg {
+  background-color: green;
+}
+
+h2#changeMyColor {
+  color: aqua;
+}
+
+.table-row {
+  display: table-row;
+  width: auto;
+}
+
+.table-row:nth-of-type(even) {
+  background-color: #eeeeee;
+}
+
+.table-row:nth-of-type(2) {
+  background-color: #3366cc !important;
+  color: white;
+}
+
+.table-cell {
+  display: inline-block;
+  padding: 0.8rem;
+  display: table-cell;
+}
